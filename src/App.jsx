@@ -1,15 +1,16 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import { Routes, Route } from 'react-router-dom';
+import InputChip from './components/InputChip/InputChip';
+import Home from './page/Home'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
+
 
   return (
-    <>
-      <h1>Machine Coding</h1>
-    </>
+    <Routes>
+       <Route path="/" element={<Home/>}></Route>
+      <Route path="/chip-component" element={<InputChip/>}></Route>
+    </Routes>
   )
 }
 
