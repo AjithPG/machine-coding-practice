@@ -1,0 +1,29 @@
+.chip-input{
+    outline-color: black;
+}
+
+.chips{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 30px;
+}
+
+.chip{
+    background-color: gainsboro;
+    border-radius: 40px;
+    padding: 4px 10px;
+    min-width: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.chip-button{
+    padding: 0;
+    background: none;
+    margin: 0;
+    border: 0;
+    cursor: pointer;
+    color: red;
+}
